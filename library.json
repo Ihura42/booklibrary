@@ -1,0 +1,123 @@
+{
+    "books": [
+        {
+            "title": "1984",
+            "author": "George Orwell",
+            "isbn": "9780451524935",
+            "available": true
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "isbn": "9780060935467",
+            "available": true
+        },
+        {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "isbn": "9780743273565",
+            "available": true
+        },
+        {
+            "title": "Moby Dick",
+            "author": "Herman Melville",
+            "isbn": "9781503280786",
+            "available": true
+        },
+        {
+            "title": "Pride and Prejudice",
+            "author": "Jane Austen",
+            "isbn": "9781503290563",
+            "available": true
+        },
+        {
+            "title": "Brave New World",
+            "author": "Aldous Huxley",
+            "isbn": "9780060850524",
+            "available": true
+        },
+        {
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "isbn": "9780316769488",
+            "available": true
+        },
+        {
+            "title": "Fahrenheit 451",
+            "author": "Ray Bradbury",
+            "isbn": "9781451673319",
+            "available": true
+        },
+        {
+            "title": "Wuthering Heights",
+            "author": "Emily Bront\u00c3\u00ab",
+            "isbn": "9780486282500",
+            "available": true
+        },
+        {
+            "title": "Jane Eyre",
+            "author": "Charlotte Bront\u00c3\u00ab",
+            "isbn": "9780141441146",
+            "available": true
+        }
+    ],
+    "users": [
+        {
+            "name": "Tom",
+            "id": "12345",
+            "borrowed_books": []
+        },
+        {
+            "name": "Bob",
+            "id": "67890",
+            "borrowed_books": []
+        },
+        {
+            "name": "Alice",
+            "id": "54321",
+            "borrowed_books": []
+        },
+        {
+            "name": "Eve",
+            "id": "98765",
+            "borrowed_books": []
+        },
+        {
+            "name": "John",
+            "id": "11223",
+            "borrowed_books": []
+        },
+        {
+            "name": "Sophie",
+            "id": "44556",
+            "borrowed_books": []
+        },
+        {
+            "name": "Liam",
+            "id": "77889",
+            "borrowed_books": []
+        },
+        {
+            "name": "Emma",
+            "id": "99000",
+            "borrowed_books": []
+        }
+    ],
+    "loans": [
+        {
+            "user_id": "12345",
+            "book_title": "1984",
+            "loan_date": "2024-09-10T00:00:00"
+        },
+        {
+            "user_id": "67890",
+            "book_title": "To Kill a Mockingbird",
+            "loan_date": "2024-09-12T00:00:00"
+        },
+        {
+            "user_id": "54321",
+            "book_title": "The Great Gatsby",
+            "loan_date": "2024-09-15T00:00:00"
+        }
+    ]
+}
